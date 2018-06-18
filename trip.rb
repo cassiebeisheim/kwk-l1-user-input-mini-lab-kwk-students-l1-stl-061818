@@ -11,11 +11,11 @@ puts "Great! Staying in #{stay} is always wonderful."
 
 # Do the same thing with `eats` and one last time with `nights`, capturing their text input and storing them to the respective local variable
 
-"We have some wonderful places to eat here. Where would you like to go?"
+puts "We have some wonderful places to eat here. Where would you like to go?"
 eats=gets.chomp
-"Great choice! I love #{eats}! And how many nights will you be here?"
+puts "Great choice! I love #{eats}! And how many nights will you be here?"
 nights=gets.chomp
-"#{nights} whole nights! You'll have plenty of time to enjoy the area."
+puts "#{nights} whole nights! You'll have plenty of time to enjoy the area."
 
 
 
