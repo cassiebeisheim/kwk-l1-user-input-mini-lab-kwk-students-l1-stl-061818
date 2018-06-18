@@ -13,9 +13,7 @@ puts "Great! Staying in #{stay} is always wonderful."
 
 "We have some wonderful places to eat here. Where would you like to go?"
 eats=gets.chomp
-"Great choice! I love #{eats}!"
-
-"And how many nights will you be here?"
+"Great choice! I love #{eats}! And how many nights will you be here?"
 nights=gets.chomp
 "#{nights} whole nights! You'll have plenty of time to enjoy the area."
 
