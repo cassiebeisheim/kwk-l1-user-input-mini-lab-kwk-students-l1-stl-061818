@@ -16,11 +16,11 @@ eats=gets.chomp
 "Great choice! I love #{eats}!"
 
 "And how many nights will you be here?"
-
+nights=gets.chomp
 "#{nights} whole nights! You'll have plenty of time to enjoy the area."
 
-nights=gets.chomp
+
 
 # Lastly, puts it all back by interpolating these values in a string.
 
-puts ""
+puts "Cant wait for you to enjoy staying in #{stay}, eating some great #{eats}, and spending a whole #{nights}!"
